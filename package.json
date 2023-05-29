@@ -1,0 +1,59 @@
+{
+  "url": "https://github.com/tiddly-gittly/Maoxian-Webclipper-Tiddlywiki-Addon",
+  "name": "my-ts-lib",
+  "version": "0.0.0",
+  "description": "My awesome typescript library",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build-fast": "tsup src/index.ts --format cjs,esm",
+    "build": "pnpm run build-fast -- --dts-resolve",
+    "test": "vitest run",
+    "prepublishOnly": "pnpm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "md-to-tid": "^0.0.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "8.40.0",
+    "@typescript-eslint/eslint-plugin": "5.59.7",
+    "@typescript-eslint/parser": "5.59.7",
+    "dprint": "^0.36.1",
+    "eslint": "8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-with-typescript": "34.0.1",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-import-resolver-typescript": "3.5.5",
+    "eslint-plugin-autofix": "1.1.0",
+    "eslint-plugin-dprint-integration": "^0.3.0",
+    "eslint-plugin-html": "7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-security": "1.7.1",
+    "eslint-plugin-security-node": "1.1.1",
+    "eslint-plugin-typescript-sort-keys": "2.3.0",
+    "eslint-plugin-unicorn": "47.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "tiddlywiki": "5.2.7",
+    "tsup": "6.7.0",
+    "tw5-typed": "0.2.27",
+    "typescript": "5.0.4",
+    "vitest": "0.31.1"
+  }
+}
