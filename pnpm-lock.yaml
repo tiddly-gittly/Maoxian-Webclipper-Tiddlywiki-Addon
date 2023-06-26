@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   md-to-tid:
     specifier: ^0.0.4
@@ -82,8 +86,8 @@ devDependencies:
     specifier: 6.7.0
     version: 6.7.0(typescript@5.0.4)
   tw5-typed:
-    specifier: 0.2.27
-    version: 0.2.27
+    specifier: 0.3.7
+    version: 0.3.7
   typescript:
     specifier: 5.0.4
     version: 5.0.4
@@ -3695,8 +3699,8 @@ packages:
       typescript: 5.0.4
     dev: true
 
-  /tw5-typed@0.2.27:
-    resolution: {integrity: sha512-ATJaMZh1udwzcgqNOoPTmH9nzI/yMo5TLgv5u3O8WKDIE8SzuDVteah0G4gSsx/ogDyHAdmn0Wu5m+2hQ2wc7A==}
+  /tw5-typed@0.3.7:
+    resolution: {integrity: sha512-p4l6wexi6dctWpSxW7D4lZqdFK7mIcNSO+JmHA/ShtL7LMyk4OkWN5pUlm6Ea27GCipOvQJbuPNk8LsKzh+N9g==}
     dependencies:
       '@types/codemirror': 5.60.7
       '@types/echarts': 4.9.18

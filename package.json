@@ -52,7 +52,7 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "tiddlywiki": "5.2.7",
     "tsup": "6.7.0",
-    "tw5-typed": "0.2.27",
+    "tw5-typed": "0.3.7",
     "typescript": "5.0.4",
     "vitest": "0.31.1"
   }
