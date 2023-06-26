@@ -51,7 +51,7 @@
     "eslint-plugin-unicorn": "47.0.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "tiddlywiki": "5.2.7",
-    "tsup": "6.7.0",
+    "tsup": "7.1.0",
     "tw5-typed": "0.2.27",
     "typescript": "5.0.4",
     "vitest": "0.31.1"
